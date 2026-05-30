@@ -21,7 +21,7 @@ swift build
 swift run A2te
 ```
 
-Requirements: macOS 14+ and Swift 5.8+ (Xcode toolchain). The app relies on modern `DocumentGroup` behavior for multi-window document editing.
+Requirements: macOS 14+ and Swift 5.9+ (Xcode toolchain). The app relies on modern `DocumentGroup` behavior for multi-window document editing.
 
 ## Build `.app`
 
@@ -31,11 +31,7 @@ To generate `A2te.app` for double-click launch:
 ./scripts/package_app.sh
 ```
 
-Outputs:
-
-- `.build/dist/A2te.app`
-- `dist/A2te.app`
-- `A2te.app` is for local launch by double-click.
+Output: `dist/A2te.app` — double-click to launch locally.
 
 ## Unsigned / Unnotarized Distribution Note
 
